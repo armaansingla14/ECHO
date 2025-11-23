@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+packages/*/node_modules/
+
+# Vite cache
+packages/frontend/node_modules/.vite/
+packages/frontend/dist/
+
+# Prisma generated
+packages/backend/node_modules/.cache/
+packages/backend/prisma/dev.db
+
+# Electron build artifacts
+packages/electron/out/
+packages/electron/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

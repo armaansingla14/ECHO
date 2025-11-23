@@ -1,0 +1,17 @@
+{
+  "name": "project-echo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "backend:dev": "npm --workspace @echo/backend run dev",
+    "frontend:dev": "npm --workspace @echo/frontend run dev",
+    "electron:dev": "npm --workspace @echo/electron run dev"
+  },
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
